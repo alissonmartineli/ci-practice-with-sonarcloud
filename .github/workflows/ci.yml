@@ -1,13 +1,11 @@
 name: Pipeline de CI
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: [ develop ]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
