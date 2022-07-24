@@ -1,0 +1,23 @@
+{
+  "name": "ci-practice-with-sonarcloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alissonmartineli/ci-practice-with-sonarcloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alissonmartineli/ci-practice-with-sonarcloud/issues"
+  },
+  "homepage": "https://github.com/alissonmartineli/ci-practice-with-sonarcloud#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
