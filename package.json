@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "test": "jest --no-cache"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "collectCoverage": true
   },
   "repository": {
     "type": "git",
@@ -18,6 +23,9 @@
   },
   "homepage": "https://github.com/alissonmartineli/ci-practice-with-sonarcloud#readme",
   "devDependencies": {
-    "jest": "^28.1.3"
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
   }
 }
